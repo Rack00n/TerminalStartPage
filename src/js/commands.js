@@ -9,6 +9,15 @@ function google(args) {
     }
 }
 
+function reddit(args) {
+    if (args != undefined) {
+        search = args.replace(" ", "+")
+        window.open("https://www.reddit.com/r/" + search + "/");
+    } else {
+        window.open("https://www.google.com");
+    }
+}
+
 // Display time
 time = clock;
 function clock(args) {
