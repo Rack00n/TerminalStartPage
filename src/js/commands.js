@@ -12,7 +12,7 @@ function google(args) {
 function github(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
-         window.open("https://www.github.com/" + search);
+         window.open("https://www.github.com/"search);
     } else {
         window.open("https://www.github.com");
     }
@@ -21,7 +21,7 @@ function github(args) {
 function youtube(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
-         window.open("https://www.youtube.com/" + search);
+         window.open("https://www.youtube.com/"search);
     } else {
         window.open("https://www.youtube.com");
     }
@@ -30,7 +30,7 @@ function youtube(args) {
 function odysee(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
-         window.open("https://odysee.com/@" + search);
+         window.open("https://odysee.com/@"search);
     } else {
         window.open("https://odysee.com");
     }
@@ -39,7 +39,7 @@ function odysee(args) {
 function reddit(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
-        window.open("https://www.reddit.com/r/" + search + "/");
+        window.open("https://www.reddit.com/r/"search + "/");
     } else {
         window.open("https://www.reddit.com");
     }
