@@ -9,12 +9,39 @@ function google(args) {
     }
 }
 
+function github(args) {
+    if (args != undefined) {
+        search = args.replace(" ", "+")
+         window.open("https://www.github.com/" + search);
+    } else {
+        window.open("https://www.github.com");
+    }
+}
+
+function youtube(args) {
+    if (args != undefined) {
+        search = args.replace(" ", "+")
+         window.open("https://www.youtube.com/" + search);
+    } else {
+        window.open("https://www.youtube.com");
+    }
+}
+
+function odysee(args) {
+    if (args != undefined) {
+        search = args.replace(" ", "+")
+         window.open("https://odysee.com/@" + search);
+    } else {
+        window.open("https://odysee.com");
+    }
+}
+
 function reddit(args) {
     if (args != undefined) {
         search = args.replace(" ", "+")
         window.open("https://www.reddit.com/r/" + search + "/");
     } else {
-        window.open("https://www.google.com");
+        window.open("https://www.reddit.com");
     }
 }
 
